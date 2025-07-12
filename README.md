@@ -36,7 +36,6 @@ It focuses on simplicity, user-friendliness, and rich content creation.
 
 ## 🏗️ System Architecture
 
-![StackIt Architecture](.architecture.png)
 
 **Architecture Overview:**
 - **Frontend:** React.js with React Router, Quill.js editor, Tailwind CSS
