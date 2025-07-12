@@ -1,6 +1,6 @@
 # 🧩 StackIt – Minimal Q&A Forum Platform
 
-![Architecture](Stackit Architecture.png)
+![Architecture](docs/Stackit Architecture.png)
 
 StackIt is a **clean, collaborative question-and-answer platform** designed to enable structured knowledge sharing in any community.  
 It focuses on simplicity, user-friendliness, and rich content creation.
