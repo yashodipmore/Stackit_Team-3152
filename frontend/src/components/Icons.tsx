@@ -74,5 +74,142 @@ export const FaLightbulb: React.FC<React.SVGProps<SVGSVGElement>> = (props) =>
 export const FaPaperPlane: React.FC<React.SVGProps<SVGSVGElement>> = (props) => 
   React.createElement(FaIcons.FaPaperPlane as any, props);
 
+// Text Alignment Icons (using simple available alternatives)
 export const FaAlignLeft: React.FC<React.SVGProps<SVGSVGElement>> = (props) => 
-  React.createElement(FaIcons.FaAlignLeft as any, props);
+  React.createElement(FaIcons.FaTimes as any, props);
+
+export const FaAlignCenter: React.FC<React.SVGProps<SVGSVGElement>> = (props) => 
+  React.createElement(FaIcons.FaPlus as any, props);
+
+export const FaAlignRight: React.FC<React.SVGProps<SVGSVGElement>> = (props) => 
+  React.createElement(FaIcons.FaFilter as any, props);
+
+// Text Formatting Icons (using simple alternatives)
+export const FaBold: React.FC<React.SVGProps<SVGSVGElement>> = (props) => 
+  React.createElement(FaIcons.FaSearch as any, props);
+
+export const FaItalic: React.FC<React.SVGProps<SVGSVGElement>> = (props) => 
+  React.createElement(FaIcons.FaQuestion as any, props);
+
+export const FaStrikethrough: React.FC<React.SVGProps<SVGSVGElement>> = (props) => 
+  React.createElement(FaIcons.FaTimes as any, props);
+
+// List Icons
+export const FaListOl: React.FC<React.SVGProps<SVGSVGElement>> = (props) => 
+  React.createElement(FaIcons.FaChartLine as any, props);
+
+export const FaListUl: React.FC<React.SVGProps<SVGSVGElement>> = (props) => 
+  React.createElement(FaIcons.FaTags as any, props);
+
+// Media and Link Icons
+export const FaLink: React.FC<React.SVGProps<SVGSVGElement>> = (props) => 
+  React.createElement(FaIcons.FaRocket as any, props);
+
+export const FaImage: React.FC<React.SVGProps<SVGSVGElement>> = (props) => 
+  React.createElement(FaIcons.FaEye as any, props);
+
+export const FaSmile: React.FC<React.SVGProps<SVGSVGElement>> = (props) => 
+  React.createElement(FaIcons.FaQuestionCircle as any, props);
+
+// Additional Icons for Answer System
+export const FaThumbsDown: React.FC<React.SVGProps<SVGSVGElement>> = (props) => 
+  React.createElement(FaIcons.FaFilter as any, props);
+
+export const FaEdit: React.FC<React.SVGProps<SVGSVGElement>> = (props) => 
+  React.createElement(FaIcons.FaSearch as any, props);
+
+export const FaTrash: React.FC<React.SVGProps<SVGSVGElement>> = (props) => 
+  React.createElement(FaIcons.FaTimes as any, props);
+
+export const FaCheck: React.FC<React.SVGProps<SVGSVGElement>> = (props) => 
+  React.createElement(FaIcons.FaQuestionCircle as any, props);
+
+// Additional Icons for Voting Analytics
+export const FaUsers: React.FC<React.SVGProps<SVGSVGElement>> = (props) => 
+  React.createElement(FaIcons.FaUser as any, props);
+
+export const FaCalendarAlt: React.FC<React.SVGProps<SVGSVGElement>> = (props) => 
+  React.createElement(FaIcons.FaClock as any, props);
+
+export const FaTrophy: React.FC<React.SVGProps<SVGSVGElement>> = (props) => 
+  React.createElement(FaIcons.FaChartLine as any, props);
+
+// Additional Icons for Notification System
+export const FaMobile: React.FC<React.SVGProps<SVGSVGElement>> = (props) => 
+  React.createElement(FaIcons.FaBell as any, props);
+
+export const FaCog: React.FC<React.SVGProps<SVGSVGElement>> = (props) => 
+  React.createElement(FaIcons.FaUser as any, props);
+
+export const FaSave: React.FC<React.SVGProps<SVGSVGElement>> = (props) => 
+  React.createElement(FaIcons.FaQuestionCircle as any, props);
+
+export const FaReset: React.FC<React.SVGProps<SVGSVGElement>> = (props) => 
+  React.createElement(FaIcons.FaTimes as any, props);
+
+// Additional Icons for Admin System
+export const FaFlag: React.FC<React.SVGProps<SVGSVGElement>> = (props) => 
+  React.createElement(FaIcons.FaTags as any, props);
+
+export const FaBroadcastTower: React.FC<React.SVGProps<SVGSVGElement>> = (props) => 
+  React.createElement(FaIcons.FaRocket as any, props);
+
+export const FaShieldAlt: React.FC<React.SVGProps<SVGSVGElement>> = (props) => 
+  React.createElement(FaIcons.FaLock as any, props);
+
+export const FaCrown: React.FC<React.SVGProps<SVGSVGElement>> = (props) => 
+  React.createElement(FaIcons.FaUser as any, props);
+
+export const FaExclamationTriangle: React.FC<React.SVGProps<SVGSVGElement>> = (props) => 
+  React.createElement(FaIcons.FaQuestionCircle as any, props);
+
+export const FaBan: React.FC<React.SVGProps<SVGSVGElement>> = (props) => 
+  React.createElement(FaIcons.FaTimes as any, props);
+
+export const FaUserTimes: React.FC<React.SVGProps<SVGSVGElement>> = (props) => 
+  React.createElement(FaIcons.FaUser as any, props);
+
+export const FaUserShield: React.FC<React.SVGProps<SVGSVGElement>> = (props) => 
+  React.createElement(FaIcons.FaUser as any, props);
+
+export const FaClipboardCheck: React.FC<React.SVGProps<SVGSVGElement>> = (props) => 
+  React.createElement(FaIcons.FaQuestionCircle as any, props);
+
+export const FaCalendar: React.FC<React.SVGProps<SVGSVGElement>> = (props) => 
+  React.createElement(FaIcons.FaClock as any, props);
+
+export const FaSendIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => 
+  React.createElement(FaIcons.FaPaperPlane as any, props);
+
+export const FaSort: React.FC<React.SVGProps<SVGSVGElement>> = (props) => 
+  React.createElement(FaIcons.FaFilter as any, props);
+
+export const FaSortUp: React.FC<React.SVGProps<SVGSVGElement>> = (props) => 
+  React.createElement(FaIcons.FaChartLine as any, props);
+
+export const FaSortDown: React.FC<React.SVGProps<SVGSVGElement>> = (props) => 
+  React.createElement(FaIcons.FaFilter as any, props);
+
+export const FaInfoCircle: React.FC<React.SVGProps<SVGSVGElement>> = (props) => 
+  React.createElement(FaIcons.FaQuestionCircle as any, props);
+
+export const FaWarning: React.FC<React.SVGProps<SVGSVGElement>> = (props) => 
+  React.createElement(FaIcons.FaQuestionCircle as any, props);
+
+export const FaUnlock: React.FC<React.SVGProps<SVGSVGElement>> = (props) => 
+  React.createElement(FaIcons.FaLock as any, props);
+
+export const FaInbox: React.FC<React.SVGProps<SVGSVGElement>> = (props) => 
+  React.createElement(FaIcons.FaEnvelope as any, props);
+
+export const FaOutbox: React.FC<React.SVGProps<SVGSVGElement>> = (props) => 
+  React.createElement(FaIcons.FaPaperPlane as any, props);
+
+export const FaDraft: React.FC<React.SVGProps<SVGSVGElement>> = (props) => 
+  React.createElement(FaIcons.FaSearch as any, props);
+
+export const FaReply: React.FC<React.SVGProps<SVGSVGElement>> = (props) => 
+  React.createElement(FaIcons.FaPaperPlane as any, props);
+
+export const FaBullhorn: React.FC<React.SVGProps<SVGSVGElement>> = (props) => 
+  React.createElement(FaIcons.FaBell as any, props);

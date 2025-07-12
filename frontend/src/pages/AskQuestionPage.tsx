@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import MDEditor from '@uiw/react-md-editor';
-import '@uiw/react-md-editor/markdown-editor.css';
 import { useAuth } from '../context/AuthContext';
 import TagSelector from '../components/TagSelector';
+import RichTextEditor from '../components/RichTextEditor';
 import { validateQuestionTitle, validateQuestionDescription } from '../utils/helpers';
 import api from '../api/api';
 import { toast } from 'react-toastify';
@@ -161,19 +160,15 @@ const AskQuestionPage: React.FC = () => {
               Description *
             </label>
             <div style={{ border: '2px solid #e9ecef', borderRadius: '8px', overflow: 'hidden' }}>
-              <MDEditor
+              <RichTextEditor
                 value={description}
-                onChange={(val) => setDescription(val || '')}
-                preview="edit"
-                height={300}
-                data-color-mode="light"
-                style={{
-                  backgroundColor: 'white'
-                }}
+                onChange={setDescription}
+                placeholder="Include all the information someone would need to answer your question. Use the toolbar above for rich formatting!"
+                height={350}
               />
             </div>
             <div style={{ fontSize: '0.8rem', color: '#6c757d', marginTop: '0.5rem' }}>
-              Use markdown formatting: **bold**, *italic*, `code`, {'>'} quotes, - lists, etc. 
+              Use the toolbar for rich formatting: bold, italic, lists, links, images, emojis, and text alignment.
               <span style={{ float: 'right' }}>
                 {description ? description.length : 0} characters
               </span>
